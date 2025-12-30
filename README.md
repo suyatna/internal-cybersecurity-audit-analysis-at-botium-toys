@@ -1,11 +1,9 @@
 # Botium Toys: Internal Security Audit
 
 # Introduction <a name="introduction">
-This case study is part of my cybersecurity portfolio and focuses on an internal security audit conducted for Botium Toys, a fictitious toy retail company. The project was completed as part of the Google Cybersecurity Professional Certificate, specifically within the Play It Safe: Manage Security Risks course.
+Studi kasus ini merupakan bagian dari portfolio cybersecurity saya yang berfokus pada audit keamanan internal. Proyek ini dilakukan menggunakan skenario Botium Toys, sebuah perusahaan retail mainan fiktif, sebagai media untuk mensimulasikan proses audit keamanan yang realistis dan relevan dengan kebutuhan industri saat ini. Studi ini juga dikembangkan sebagai bagian dari Google Cybersecurity Professional Certificate melalui Coursera, khususnya pada course Play It Safe: Manage Security Risks.
 
-The audit aims to evaluate the current state of Botium Toys’ cybersecurity program and align existing business practices with industry standards and best practices. The assessment focuses on identifying key risks, security control gaps, and potential compliance issues.
-
-The audit results are used to develop mitigation recommendations for high-risk vulnerabilities and to outline an overall strategy for improving the organization’s security posture. Findings and remediation efforts are documented to ensure clear communication with relevant stakeholders.
+Audit ini bertujuan untuk mengevaluasi program keamanan siber Botium Toys dan mengukur kesesuaiannya dengan standar industri serta praktik terbaik. Fokus utama diarahkan pada identifikasi risiko dengan tingkat keparahan tinggi, perumusan rekomendasi mitigasi, dan penyusunan strategi untuk meningkatkan security posture organisasi secara keseluruhan. Seluruh temuan audit didokumentasikan secara terstruktur, dilengkapi dengan rencana perbaikan, serta disusun agar dapat dikomunikasikan dengan jelas kepada stakeholder.
 
 # Scenario <a name="scenario">
 Botium Toys is entering a growth phase that requires increased reliance on digital systems to support business operations and transactions. Sales are conducted through physical stores and online platforms, while customer and payment data are managed through an expanding internal infrastructure.
