@@ -168,8 +168,6 @@ Pada tahap ini, saya mulai membandingkan kontrol keamanan yang ideal dengan kond
 |Kunci|x| |
 |Sistem deteksi dan pencegahan kebakaran|x| |
 
-### Controls assessment summary
-
 Sejumlah kontrol dasar sudah diterapkan dan berjalan cukup baik. Perlindungan jaringan dasar, antivirus, pemantauan sistem lama, serta keamanan fisik sudah memberi lapisan perlindungan awal.
 
 Kendala mulai terlihat pada perlindungan data yang bersifat sensitif. Enkripsi belum diterapkan. Sistem pendeteksi serangan belum digunakan. Cadangan data belum disiapkan. Akses pengguna juga belum diatur berdasarkan peran. Kondisi ini membuat risiko kebocoran data dan gangguan operasional menjadi lebih besar.
@@ -183,6 +181,7 @@ Setelah meninjau kontrol internal, saya beralih ke aspek kepatuhan. Perhatian di
 Penilaian ini dilakukan karena Botium Toys mengelola dan menyimpan data kartu pembayaran pelanggan di dalam sistem internal perusahaan.
 
 |Praktik yang seharusnya diterapkan|Sudah|Belum|
+|---|---|---|
 |Akses data kartu dibatasi hanya untuk pihak berwenang| |x|
 |Data kartu diproses dan disimpan di lingkungan yang aman| |x|
 |Enkripsi untuk transaksi kartu kredit diterapkan| |x|
@@ -195,6 +194,7 @@ Hasil penilaian menunjukkan kondisi yang cukup mengkhawatirkan. Sebagian besar p
 Bagian ini menyoroti cara perusahaan melindungi data pribadi pelanggan dan kesiapan saat terjadi insiden.
 
 |Praktik yang seharusnya diterapkan|Sudah|Belum|
+|---|---|---|
 |Data pelanggan Uni Eropa dijaga keamanannya| |x|
 |Pemberitahuan kebocoran data dilakukan dalam 72 jam|x| |
 |Data diklasifikasikan dan dicatat dengan jelas| |x|
@@ -207,9 +207,28 @@ Beberapa hal sudah mulai dijalankan, terutama terkait prosedur pemberitahuan dan
 SOC saya gunakan sebagai acuan untuk menilai bagaimana akses dikelola dan bagaimana data dijaga dari sisi kerahasiaan, keutuhan, dan ketersediaannya.
 
 |Praktik yang seharusnya diterapkan|Sudah|Belum|
+|---|---|---|
 |Kebijakan pengaturan akses pengguna diterapkan| |x|
 |Data sensitif terlindungi dengan baik| |x|
 |Keutuhan data tetap terjaga|x| |
 |Data tersedia bagi pengguna yang berwenang|x| |
 
 Penilaian menunjukkan bahwa aspek keutuhan dan ketersediaan data sudah mulai diperhatikan. Perlindungan kerahasiaan data masih perlu menjadi fokus utama perbaikan.
+
+### Recommendations
+
+Dari seluruh hasil penilaian, area yang paling perlu segera dibenahi adalah perlindungan data sensitif dan kesiapan operasional. Enkripsi menjadi kebutuhan utama. Pengaturan akses berdasarkan peran perlu segera diterapkan. Sistem pendeteksi dini dibutuhkan agar masalah bisa diketahui lebih cepat. Cadangan data rutin juga harus disiapkan. Pengelolaan kata sandi secara terpusat dapat membantu menutup banyak celah kecil yang berisiko.
+
+Langkah-langkah ini menjadi dasar penting agar Botium Toys bisa menekan risiko kebocoran data, lebih siap saat menghadapi audit kepatuhan, dan membangun kondisi keamanan yang lebih kuat ke depannya.
+
+---
+
+## 🏁 Conclusion <a name="conclusion">
+
+Audit keamanan internal di Botium Toys menunjukkan adanya jarak antara cepatnya pertumbuhan bisnis dan kesiapan sistem keamanannya. Beberapa perlindungan dasar sudah tersedia, terutama di sisi teknis dan keamanan fisik. Pengelolaan akses, perlindungan data, pemantauan sistem, serta kesiapan menghadapi insiden masih belum berjalan dengan baik.
+
+Hasil penilaian memperlihatkan bahwa risiko tidak muncul dari satu masalah saja. Beberapa kontrol penting belum diterapkan secara menyeluruh. Pembatasan akses belum jelas, data belum dilindungi dengan baik, sistem pendeteksi belum tersedia, dan cadangan data serta rencana pemulihan belum disiapkan. Kondisi ini meningkatkan peluang terjadinya kebocoran data dan gangguan operasional.
+
+Temuan audit menekankan pentingnya pendekatan keamanan yang lebih terarah dan berbasis risiko. Penyesuaian kontrol keamanan dengan standar industri dan aturan yang berlaku akan membantu Botium Toys bergerak dari pola reaksi sesaat menuju keamanan yang lebih siap dan berkelanjutan.
+
+Audit ini menjadi langkah awal dalam pengambilan keputusan strategis terkait keamanan informasi. Rekomendasi yang dihasilkan memberi panduan yang jelas untuk memperkuat perlindungan, menekan risiko, dan menjaga kelangsungan bisnis seiring pertumbuhan perusahaan.
