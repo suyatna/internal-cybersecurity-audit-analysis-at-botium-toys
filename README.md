@@ -13,13 +13,21 @@
 
 ## 👋 Introduction <a name="introduction">
 
-The audit evaluates Botium toys cybersecurity program and examines how existing business practices align with industry standards and best practices. The assessment focuses on identifying high-risk vulnerabilities, providing mitigation recommendations, and defining an overall strategy to improve the organization’s security posture. Audit findings are documented clearly, supported by remediation plans, and structured to enable effective communication with stakeholders.
+Studi kasus ini saya susun sebagai bagian dari portofolio cybersecurity, dengan fokus pada audit keamanan internal. Proyek ini menggunakan skenario Botium Toys, sebuah perusahaan retail mainan fiktif, untuk menggambarkan proses audit keamanan yang mendekati kondisi nyata di industri. Pembahasan ini juga lahir dari pembelajaran saya dalam program Google Cybersecurity Professional Certificate di Coursera, khususnya pada course Play It Safe: Manage Security Risks.
+
+Audit dilakukan untuk menilai sejauh mana sistem keamanan siber Botium Toys sudah berjalan dengan baik dan selaras dengan standar industri. Perhatian utama diarahkan pada risiko-risiko yang memiliki dampak besar, lalu diterjemahkan menjadi rekomendasi yang bisa langsung ditindaklanjuti. Hasil audit disusun secara rapi dan mudah dipahami, lengkap dengan rencana perbaikan, agar dapat disampaikan dengan jelas kepada para pemangku kepentingan.
 
 ---
 
 ## 💭 Audit scenario <a name="scenario">
 
-The audit evaluates Botium Toys’ cybersecurity program and examines how existing business practices align with industry standards and best practices. The assessment focuses on identifying high-risk vulnerabilities, providing mitigation recommendations, and defining an overall strategy to improve the organization’s security posture. Audit findings are documented clearly, supported by remediation plans, and structured to enable effective communication with stakeholders.
+Botium Toys adalah perusahaan retail mainan yang sedang bertumbuh dan menjalankan penjualan lewat toko fisik serta platform online. Aktivitas transaksi digital yang semakin padat membuat perusahaan harus menangani lebih banyak data pelanggan, termasuk informasi pribadi dan pembayaran. Sistem TI memegang peran penting dalam keseharian operasional, mulai dari pengelolaan stok hingga proses transaksi.
+
+Laju pertumbuhan bisnis belum sepenuhnya diiringi dengan penguatan keamanan internal. Berbagai sistem digunakan bersama oleh karyawan lintas divisi, namun pengaturan akses, pencatatan aset, dan perlindungan data masih berjalan tanpa kerangka yang jelas. Situasi ini menimbulkan risiko, seperti kebocoran data, gangguan layanan, hingga masalah kepatuhan terhadap aturan yang berlaku.
+
+Kondisi tersebut mendorong manajemen untuk melakukan audit keamanan internal. Tujuannya sederhana, yaitu memahami kondisi keamanan yang ada saat ini. Audit difokuskan pada aset-aset penting, cara sistem dilindungi, serta risiko yang bisa berdampak langsung pada operasional dan bisnis.
+
+Audit ini disusun untuk melihat apakah praktik keamanan yang berjalan sudah sejalan dengan standar industri. Setiap temuan dicatat secara rapi dan disertai saran perbaikan yang realistis. Hasilnya diharapkan menjadi langkah awal bagi perusahaan untuk membangun keamanan yang lebih kuat dan berkelanjutan.
 
 ---
 
@@ -29,124 +37,167 @@ The audit evaluates Botium Toys’ cybersecurity program and examines how existi
 
 #### a. Scope
 
-Audit ini saya lakukan dengan melihat keseluruhan program keamanan di Botium Toys. Fokusnya bukan hanya pada satu sistem atau alat tertentu, tapi ke semua aset yang dikelola tim IT. Mulai dari sistem yang dipakai sehari hari, perangkat kerja, data perusahaan, sampai proses internal yang berkaitan langsung dengan penerapan kontrol keamanan dan kepatuhan terhadap standar yang berlaku.
+Audit ini saya jalankan dengan melihat gambaran besar keamanan di Botium Toys. Perhatian tidak diarahkan pada satu sistem atau alat tertentu, melainkan pada seluruh aset yang dikelola oleh tim IT. Cakupannya meliputi sistem yang digunakan sehari-hari, perangkat kerja karyawan, data perusahaan, serta proses internal yang berkaitan langsung dengan pengamanan dan kepatuhan terhadap standar yang berlaku.
 
-Dalam prosesnya, saya tidak hanya menilai teknologi yang digunakan. Saya juga melihat bagaimana aset dikelola, siapa saja yang punya akses, dan bagaimana kontrol keamanan benar benar diterapkan dalam aktivitas harian. Dari sini terlihat apakah praktik keamanan sudah berjalan konsisten atau masih sebatas aturan di atas kertas.
+Penilaian tidak berhenti pada teknologi yang digunakan. Cara aset dikelola, pengaturan akses, dan penerapan kontrol keamanan dalam aktivitas harian juga menjadi bagian penting dari evaluasi. Dari proses ini terlihat apakah keamanan sudah benar-benar dijalankan secara konsisten atau masih sebatas kebijakan tertulis.
 
 #### b. Goals
 
-Tujuan utama audit ini sederhana, saya ingin tahu sekuat apa kondisi keamanan Botium Toys saat ini. Dari sana saya mulai membandingkan praktik yang sudah berjalan dengan standar dan best practice yang biasa dipakai di industri.
+Audit ini saya lakukan untuk memahami seberapa kuat kondisi keamanan Botium Toys saat ini. Penilaian dimulai dengan melihat praktik yang sudah berjalan dan membandingkannya dengan standar umum yang lazim digunakan di industri.
 
-Saya menelusuri aset yang ada satu per satu sambil mencocokkannya dengan daftar kontrol dan kepatuhan. Proses ini membantu saya melihat bagian mana yang sudah aman dan bagian mana yang masih punya celah. Dari hasil itulah muncul gambaran langkah keamanan apa saja yang perlu diterapkan supaya posisi keamanan Botium Toys bisa jadi lebih kuat.
+Setiap aset ditinjau satu per satu dan dicocokkan dengan kontrol serta aturan yang relevan. Proses ini memudahkan saya mengenali area yang sudah terlindungi dengan baik dan area yang masih memiliki celah. Hasil tersebut terbentuk gambaran langkah-langkah perbaikan yang dibutuhkan agar keamanan Botium Toys bisa lebih kuat.
 
 ### Current assets
 
-Aset yang dikelola tim IT di Botium Toys cukup luas dan saling terhubung.
-- Perangkat on premises di kantor yang menunjang aktivitas operasional harian
-- Perangkat kerja karyawan seperti desktop, laptop, smartphone, workstation untuk kerja jarak jauh, serta perangkat pendukung lainnya
-- Produk ritel yang dijual melalui toko fisik dan platform online, termasuk sistem penyimpanan di gudang
-- Sistem dan layanan bisnis yang digunakan setiap hari, seperti akuntansi, telekomunikasi, database, sistem keamanan, platform e commerce, dan sistem manajemen inventori
-- Akses internet serta infrastruktur jaringan internal yang menjadi fondasi seluruh aktivitas digital
+Aset yang dikelola oleh tim IT di Botium Toys cukup beragam dan saling terhubung. Seluruh aset ini berperan penting dalam mendukung aktivitas bisnis sehari-hari.
+- Perangkat di kantor yang digunakan untuk menunjang operasional harian
+- Perangkat kerja karyawan, seperti desktop, laptop, smartphone, workstation untuk kerja jarak jauh, serta perangkat pendukung lainnya
+- Produk ritel yang dijual melalui toko fisik dan platform online, termasuk sistem penyimpanan dan pengelolaan gudang
+- Sistem dan layanan bisnis yang digunakan setiap hari, mencakup keuangan, komunikasi, pengelolaan data, keamanan, platform penjualan online, dan manajemen inventori
+- Akses internet dan infrastruktur jaringan internal yang menjadi dasar seluruh aktivitas digital perusahaan
 
 ### Risk assessment
 
 #### a. Risk description
 
-Pengelolaan aset di Botium Toys masih terasa setengah jalan. Kontrol keamanan sudah ada, tapi belum tertata rapi dan belum mengikuti standar keamanan yang berlaku. Kondisi ini membuka banyak celah. Data sensitif rawan tersentuh pihak yang tidak seharusnya. Operasional bisnis juga berisiko terganggu saat terjadi insiden keamanan.
+Pengelolaan aset di Botium Toys masih belum berjalan dengan optimal. Beberapa kontrol keamanan sudah diterapkan, namun pelaksanaannya belum terstruktur dan belum mengacu pada standar yang jelas. Situasi ini membuat celah keamanan masih terbuka.
+
+Data sensitif berpotensi diakses oleh pihak yang tidak berwenang. Aktivitas bisnis juga bisa terganggu ketika terjadi masalah keamanan, karena belum ada perlindungan yang benar-benar siap menghadapi risiko tersebut.
 
 #### b. Control best practices
 
-Pendekatan yang paling masuk akal mengacu ke fungsi Identify dari NIST Cybersecurity Framework. Langkah awalnya jelas, mengenali semua aset yang dimiliki. Setiap aset dicatat lalu diklasifikasikan. Dari sini terlihat mana yang paling krusial. Tim bisa menentukan prioritas perlindungan. Dampak bisnis saat aset hilang juga lebih mudah dipetakan.
+Pendekatan yang saya pilih dimulai dari fungsi Identify dalam NIST Cybersecurity Framework. Langkah pertama dimulai dengan mengenali seluruh aset yang dimiliki perusahaan. Setiap aset dicatat dan dikelompokkan agar lebih mudah dipahami.
+
+Proses ini membantu melihat aset mana yang paling penting bagi bisnis. Prioritas perlindungan bisa ditentukan dengan lebih jelas. Dampak terhadap operasional juga lebih mudah diperkirakan jika suatu aset mengalami masalah atau hilang.
 
 #### c. Risk score
 
-Hasil penilaian menunjukkan skor 8 dari 10. Angka ini menggambarkan tingkat risiko yang tinggi. Kontrol keamanan masih terbatas. Kepatuhan terhadap standar keamanan juga belum konsisten.
+Hasil penilaian menunjukkan skor 8 dari 10, yang menandakan tingkat risiko cukup tinggi. Perlindungan yang ada masih terbatas dan belum merata. Penerapan standar keamanan juga belum dijalankan secara konsisten.
 
 #### d. Additional risk considerations
 
-Dampak kehilangan aset berada di level menengah. Aset penting belum terpetakan dengan jelas. Peluang terjadinya kebocoran cukup besar. Risiko sanksi regulasi juga tinggi. Perlindungan data masih lemah.
+Dampak kehilangan aset berada di tingkat menengah. Aset yang paling penting belum dipetakan dengan jelas. Peluang terjadinya kebocoran masih cukup besar. Risiko pelanggaran aturan juga tinggi karena perlindungan data belum kuat.
 
-Temuan spesifik yang saya catat:
-- Seluruh karyawan memiliki akses data internal yang terlalu luas, termasuk data pembayaran dan data pribadi pelanggan
-- Data kartu kredit belum dilindungi dengan enkripsi saat diproses maupun disimpan
-- Prinsip least privilege dan pemisahan tugas belum diterapkan
-- Firewall sudah terpasang dan dikonfigurasi dengan aturan keamanan yang sesuai
-- Antivirus aktif dan rutin dipantau
-- Sistem intrusion detection belum tersedia
-- Rencana pemulihan bencana dan mekanisme backup data belum ada
-- Prosedur notifikasi kebocoran data untuk pelanggan sudah memenuhi batas waktu 72 jam
-- Kebijakan kata sandi sudah ada, tapi belum mengikuti standar kompleksitas saat ini
-- Sistem manajemen kata sandi terpusat belum digunakan
+Beberapa temuan penting yang saya catat selama audit:
+- Seluruh karyawan memiliki akses yang terlalu luas ke data internal, termasuk informasi pembayaran dan data pribadi pelanggan
+- Data kartu kredit belum dilindungi dengan baik saat diproses maupun disimpan
+- Prinsip pembatasan akses dan pemisahan tanggung jawab belum diterapkan
+- Firewall sudah terpasang dan dikonfigurasi dengan aturan yang memadai
+- Antivirus aktif dan dipantau secara rutin
+- Sistem pendeteksian serangan belum tersedia
+- Rencana pemulihan saat terjadi gangguan serta mekanisme pencadangan data belum disiapkan
+- Prosedur pemberitahuan kebocoran data kepada pelanggan Uni Eropa sudah mengikuti batas waktu 72 jam
+- Aturan kata sandi sudah ada, namun belum sesuai dengan standar kekuatan terbaru
+- Sistem pengelolaan kata sandi terpusat belum digunakan
 
-Dari sini terlihat jelas area mana yang perlu dibenahi lebih dulu supaya keamanan Botium Toys bisa lebih kuat.
+Gambaran ini membantu menunjukkan area yang perlu diprioritaskan agar keamanan Botium Toys dapat ditingkatkan secara bertahap.
 
 ---
 
 ## 🚧 Control categories <a name="controlcategories">
 
-Pendekatan ini membantu saya melihat keamanan bukan hanya dari sisi sistem, tapi juga dari cara orang bekerja dan bagaimana aset dijaga.
+Bagian ini menjadi titik awal saya menyusun gambaran menyeluruh tentang keamanan di Botium Toys. Kerangka tersebut saya bagi ke dalam tiga lapisan utama, yaitu kebijakan, teknis, dan fisik. Pembagian ini memudahkan saya melihat keamanan tidak hanya dari sisi sistem, tetapi juga dari kebiasaan kerja tim dan cara aset dilindungi secara langsung di lingkungan kerja.
 
-### Administrative/managerial controls
+### Administrative/managerial controls (kebijakan)
 
-|Nama kontrol|Tipe kontrol|Alasan|
+Bagian ini berfokus pada aturan dan kebijakan yang mengatur cara orang bekerja dan menggunakan akses.
+
+|Nama kontrol|Tipe kontrol|Penjelasan singkat|
 |---|---|---|
-|Least privilege|Preventative|Setiap orang hanya pegang akses yang benar benar dibutuhkan|
-|Disaster recovery plans|Corrective|Aktivitas bisnis tetap bisa lanjut setelah insiden|
-|Password policies|Preventative|Akses akun tidak mudah ditembus dengan cara sederhana|
-|Access control policies|Preventative|Hak lihat dan ubah data jadi lebih jelas|
-|Account management policies|Preventative|Akun lama dan akun default tidak jadi pintu masuk ancaman|
-|Separation of duties|Preventative|Tanggung jawab dibagi supaya tidak ada kendali berlebih|
+|Least privilege|Preventif|Setiap orang hanya memiliki akses sesuai kebutuhan kerjanya|
+|Rencana pemulihan bencana|Korektif|Aktivitas bisnis tetap bisa berjalan setelah terjadi gangguan|
+|Kebijakan kata sandi|Preventif|Akun tidak mudah diakses dengan cara yang sederhana|
+|Kebijakan kontrol akses|Preventif|Hak melihat dan mengubah data menjadi lebih jelas|
+|Kebijakan pengelolaan akun|Preventif|Akun lama dan akun bawaan tidak menjadi celah keamanan|
+|Pemisahan tugas|Preventif|Tanggung jawab dibagi agar tidak ada kendali berlebihan|
 
-### Technical controls
+### Technical controls (teknis)
 
-|Nama kontrol|Tipe kontrol|Alasan|
+Lapisan ini berkaitan langsung dengan sistem dan perlindungan digital yang digunakan sehari-hari.
+
+|Nama kontrol|Tipe kontrol|Penjelasan singkat|
 |---|---|---|
-|Firewall|Preventative|Jaringan terlindungi dari lalu lintas yang mencurigakan|
-|IDS/IPS|Detective|Aktivitas aneh bisa terdeteksi lebih cepat|
-|Encryption|Deterrent|Data sensitif tetap aman saat disimpan dan diproses|
-|Backups|Corrective|Data bisa dipulihkan saat sistem bermasalah|
-|Password management|Preventative|Penggunaan password jadi lebih rapi dan konsisten|
-|Antivirus (AV) software|Corrective|Ancaman umum bisa langsung ditangani|
-|Manual monitoring, maintenance, and intervention|Preventative|Sistem lama tetap aman lewat pengawasan rutin|
+|Firewall|Preventif|Jaringan terlindungi dari lalu lintas yang mencurigakan|
+|IDS/IPS|Detektif|Aktivitas tidak wajar bisa diketahui lebih cepat|
+|Enkripsi|Pencegah|Data sensitif tetap aman saat disimpan dan digunakan|
+|Cadangan data|Korektif|Data bisa dipulihkan saat sistem bermasalah|
+|Manajemen kata sandi|Preventif|Penggunaan kata sandi lebih rapi dan konsisten|
+|Antivirus|Korektif|Ancaman umum bisa langsung ditangani|
+|Pemantauan dan perawatan manual|Preventif|Sistem tetap aman lewat pengawasan rutin|
 
-### Physical/operational controls
+### Physical/operational controls (fisik)
 
-|Nama kontrol|Tipe kontrol|Alasan|
+Lapisan ini melihat bagaimana aset dijaga secara langsung di lingkungan kerja.
+
+|Nama kontrol|Tipe kontrol|Penjelasan singkat|
 |---|---|---|
-|Time-controlled safe|Deterrent|Akses aset penting dibatasi secara fisik|
-|Adequate lighting|Deterrent|Area rawan jadi lebih terbuka dan aman|
-|Closed-circuit television (CCTV)|Preventative/detective  |Mencegah kejadian dan jadi bukti saat insiden|
-|Locking cabinets (network equipment)|Preventative|Perangkat jaringan tidak mudah disentuh sembarang orang|
-|Alarm service provider signage|Deterrent|Ancaman berpikir dua kali sebelum bertindak|
-|Locks|Preventative/deterrent|Akses fisik tetap terjaga|
-|Fire detection and prevention systems|Detective/preventative|Inventori dan server terlindungi dari risiko kebakaran|
+|Brankas dengan pengatur waktu|Pencegah|Akses ke aset penting dibatasi secara fisik|
+|Penerangan yang memadai|Pencegah|Area rawan menjadi lebih terbuka dan aman|
+|CCTV|Preventif/detektif|Mencegah kejadian dan membantu saat investigasi|
+|Lemari terkunci untuk perangkat jaringan|Preventif|Perangkat penting tidak mudah diakses sembarang orang|
+|Papan peringatan sistem alarm|Pencegah|Pihak luar berpikir ulang sebelum bertindak|
+|Kunci|Preventif/pencegah|Akses fisik tetap terjaga|
+|Sistem deteksi dan pencegahan kebakaran|Server dan inventori terlindungi dari risiko kebakaran|
 
 ---
 
 ## 📋 Control and compliance checklist <a name="controlandcompliance">
  
-Di sini, saya mulai mencocokkan kontrol keamanan yang seharusnya ada dengan kondisi nyata di Botium Toys.
+Pada tahap ini, saya mulai membandingkan kontrol keamanan yang ideal dengan kondisi nyata di Botium Toys. Proses ini membantu melihat bagian yang sudah berjalan dengan baik dan bagian yang masih memiliki celah.
 
-|Kontrol|Yes|No|
+|Kontrol|Ya|Tidak|
 |---|---|---|
 |Least privilege| |x|
-|Disaster recovery plans| |x|
-|Password policies|x| |
-|Access control policies| |x|
-|Account management policies| |x|
-|Separation of duties| |x|
+|Rencana pemulihan bencana| |x|
+|Kebijakan kata sandi|x| |
+|Kebijakan kontrol akses| |x|
+|Kebijakan pengelolaan akun| |x|
+|Pemisahan tugas| |x|
 |Firewall|x| |
 |IDS/IPS| |x|
-|Encryption| |x|
-|Backups| |x|
-|Password management| |x|
-|Antivirus (AV) software|x| |
-|Manual monitoring, maintenance, and intervention|x| |
-|Time-controlled safe| |x|
-|Adequate lighting|x| |
-|Closed-circuit television (CCTV)|x| |
-|Locking cabinets (network equipment)|x| |
-|Alarm service provider signage|x| |
-|Locks|x| |
-|Fire detection and prevention systems|x| |
+|Enkripsi| |x|
+|Cadangan data| |x|
+|Manajemen kata sandi| |x|
+|Antivirus|x| |
+|Pemantauan dan perawatan manual|x| |
+|Brankas dengan pengatur waktu| |x|
+|Penerangan yang memadai|x| |
+|CCTV|x| |
+|Lemari terkunci untuk perangkat jaringan|x| |
+|Papan peringatan sistem alarm|x| |
+|Kunci|x| |
+|Sistem deteksi dan pencegahan kebakaran|x| |
 
+### Controls assessment summary
+
+Sejumlah kontrol dasar sudah diterapkan dan berjalan cukup baik. Perlindungan jaringan dasar, antivirus, pemantauan sistem lama, serta keamanan fisik sudah memberi lapisan perlindungan awal.
+
+Kendala mulai terlihat pada perlindungan data yang bersifat sensitif. Enkripsi belum diterapkan. Sistem pendeteksi serangan belum digunakan. Cadangan data belum disiapkan. Akses pengguna juga belum diatur berdasarkan peran. Kondisi ini membuat risiko kebocoran data dan gangguan operasional menjadi lebih besar.
+
+### Compliance Checklist
+
+Setelah meninjau kontrol internal, saya beralih ke aspek kepatuhan. Perhatian diarahkan pada standar yang paling sesuai dengan aktivitas dan kebutuhan Botium Toys.
+
+#### PCI DSS
+
+Penilaian ini dilakukan karena Botium Toys mengelola dan menyimpan data kartu pembayaran pelanggan di dalam sistem internal perusahaan.
+
+|Praktik yang seharusnya diterapkan|Sudah|Belum|
+|Akses data kartu dibatasi hanya untuk pihak berwenang| |x|
+|Data kartu diproses dan disimpan di lingkungan yang aman| |x|
+|Enkripsi untuk transaksi kartu kredit diterapkan| |x|
+|Kebijakan pengelolaan kata sandi yang aman| |x|
+
+Hasil penilaian menunjukkan kondisi yang cukup mengkhawatirkan. Sebagian besar praktik penting terkait PCI DSS belum dijalankan. Area pembayaran terlihat sebagai salah satu sumber risiko terbesar bagi perusahaan.
+
+#### GDPR
+
+Bagian ini menyoroti cara perusahaan melindungi data pribadi pelanggan dan kesiapan saat terjadi insiden.
+
+|Praktik yang seharusnya diterapkan|Sudah|Belum|
+|Data pelanggan Uni Eropa dijaga keamanannya| |x|
+|Pemberitahuan kebocoran data dilakukan dalam 72 jam|x| |
+|Data diklasifikasikan dan dicatat dengan jelas| |x|
+|Kebijakan privasi diterapkan|x| |
+
+Beberapa hal sudah mulai dijalankan, terutama terkait prosedur pemberitahuan dan aturan tertulis. Pengelolaan data di tingkat teknis masih perlu banyak pembenahan agar lebih tertata.
