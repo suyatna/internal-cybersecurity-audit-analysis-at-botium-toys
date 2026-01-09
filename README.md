@@ -1,4 +1,4 @@
-# Botium Toys internal security audit
+# Botium Toys: Internal security audit
 
 ## 📑 Table of contents
 
