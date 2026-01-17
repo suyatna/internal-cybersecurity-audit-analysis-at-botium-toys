@@ -172,7 +172,7 @@ Sejumlah kontrol dasar sudah diterapkan dan berjalan cukup baik. Perlindungan ja
 
 Kendala mulai terlihat pada perlindungan data yang bersifat sensitif. Enkripsi belum diterapkan. Sistem pendeteksi serangan belum digunakan. Cadangan data belum disiapkan. Akses pengguna juga belum diatur berdasarkan peran. Kondisi ini membuat risiko kebocoran data dan gangguan operasional menjadi lebih besar.
 
-### Compliance Checklist
+### Compliance checklist
 
 Setelah meninjau kontrol internal, saya beralih ke aspek kepatuhan. Perhatian diarahkan pada standar yang paling sesuai dengan aktivitas dan kebutuhan Botium Toys.
 
