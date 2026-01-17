@@ -36,13 +36,13 @@ Audit ini disusun untuk melihat apakah praktik keamanan yang berjalan sudah seja
 
 ## 🎯 Audit objectives and scope <a name="objective">
 
-### Scope of the audit
+### a. Scope of the audit
 
 Audit ini saya jalankan dengan melihat gambaran besar keamanan di Botium Toys. Perhatian tidak diarahkan pada satu sistem atau alat tertentu, melainkan pada seluruh aset yang dikelola oleh tim IT. Cakupannya meliputi sistem yang digunakan sehari-hari, perangkat kerja karyawan, data perusahaan, serta proses internal yang berkaitan langsung dengan pengamanan dan kepatuhan terhadap standar yang berlaku.
 
 Penilaian tidak berhenti pada teknologi yang digunakan. Cara aset dikelola, pengaturan akses, dan penerapan kontrol keamanan dalam aktivitas harian juga menjadi bagian penting dari evaluasi. Dari proses ini terlihat apakah keamanan sudah benar-benar dijalankan secara konsisten atau masih sebatas kebijakan tertulis.
 
-### Goals of the audit
+### b. Goals of the audit
 
 Audit ini saya lakukan untuk memahami seberapa kuat kondisi keamanan Botium Toys saat ini. Penilaian dimulai dengan melihat praktik yang sudah berjalan dan membandingkannya dengan standar umum yang lazim digunakan di industri.
 
