@@ -44,7 +44,7 @@ Penilaian juga mencakup cara aset dikelola dan bagaimana pengaturan akses ditera
 
 ### b. Goals of the audit
 
-Audit ini saya jalankan untuk memahami seberapa kuat kondisi keamanan Botium Toys saat ini. Penilaian dimulai dengan melihat praktik yang sudah berjalan lalu dibandingkan dengan standar keamanan yang umum dipakai di industri.
+Audit ini saya lakukan untuk memahami seberapa kuat kondisi keamanan Botium Toys saat ini. Penilaian dimulai dengan melihat praktik yang sudah berjalan lalu dibandingkan dengan standar keamanan yang umum dipakai di industri.
 
 Setiap aset ditinjau satu per satu dan dicocokkan dengan kontrol serta aturan yang relevan. Pendekatan ini membantu melihat bagian yang sudah aman dan bagian yang masih punya celah. Hasil akhirnya memberi gambaran langkah perbaikan yang perlu dilakukan supaya keamanan Botium Toys bisa lebih kuat.
 
